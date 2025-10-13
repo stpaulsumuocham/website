@@ -1,0 +1,17 @@
+.carousel-item {
+    transition: opacity 10s ease-in-out;
+}
+.carousel-item:not(.active) {
+    opacity: 0;
+    display: none;
+}
+.active {
+    opacity: 5;
+    display: block;
+}
+.priest-card {
+    transition: transform 0.3s ease;
+}
+.priest-card:hover {
+    transform: translateY(-5px);
+}
