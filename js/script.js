@@ -5,7 +5,7 @@
         });
 
         // Auto-rotate priests carousel (if needed for other sections)
-        setInterval(showNextImage, 10000);
+        setInterval(showNextImage, 20000);
 // Hero Carousel
 const carousel = document.getElementById('church-carousel');
         let currentIndex = 0;
@@ -16,7 +16,7 @@ const items = document.querySelectorAll('.carousel-item');
             items[currentIndex].classList.add('active');
         }
         // Auto-rotate hero carousel
-        let carouselInterval = setInterval(showNextImage, 10000);
+        let carouselInterval = setInterval(showNextImage, 20000);
 // Initialize carousels and feather icons
         document.addEventListener('DOMContentLoaded', function() {
 });
